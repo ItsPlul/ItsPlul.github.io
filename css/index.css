@@ -5,6 +5,10 @@ body{
   
 }
 
+.Favicon{
+  border-radius: 50%;
+}
+
 .Background-1{
 
   background:linear-gradient(1deg,
