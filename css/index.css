@@ -1,0 +1,254 @@
+body{
+ background-color: #0e0e0e;
+ margin-left: 20px;
+ margin-right: 20px;
+  
+}
+
+.Background-1{
+
+  background:linear-gradient(1deg,
+  #b571d7 0%,
+  #a45ee5 30%,
+  #ae59fe 85%,
+  #b847db 100%);
+
+  width:100%;
+  height:30vh;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  z-index: 999;
+  transform: rotate(359.5deg);
+  top: -20px;
+
+}
+
+.Profile{
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #282828;
+  width: 80%;
+  height: 335px;
+  position: relative;
+  top:-80px;
+  padding:10px;
+  border-radius: 17px;
+  box-shadow: rgba(198, 55, 255, 0.4) 0px 5px 10px;
+
+
+}
+
+.Profile-picture{
+  border-radius: 1000px;
+  width:175px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  position:absolute;
+  top:-50px;
+  z-index:1001;
+  box-shadow: rgba(225, 0, 255, 0.4) 0px 5px 10px;
+}
+
+p{
+  font-family:sans-serif;
+}
+
+.location{
+  text-align: center;
+  position: absolute;
+  top:190px;
+  font-size: 19px;
+  color: #828282;
+
+}
+
+.location-img{
+  position: absolute;
+  width:25px; 
+  top:180px;
+}
+
+.name{
+  position: absolute;
+  top:112px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:monospace;
+  color: azure;
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bio{
+  position: absolute;
+  top: 227px;
+  text-align: center;
+  line-height: 13px;
+  color:white;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio-1{
+  position: absolute;
+  top: 250px;
+  text-align: center;
+  line-height: 13px;
+  color:white;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.discord{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  filter: invert(100%);
+  display: flex;
+  border-radius: 100%;
+  border-width: 5px;
+  top: 290px;
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 4px 10px;
+
+
+
+}
+
+
+.link-div{
+  display: flex;
+  z-index: 1000;
+  background-color: #282828;
+  width: 450px;
+  height: 60px;
+  padding:10px;
+  border-radius: 5px;
+  margin-left: 0;
+  box-shadow: rgba(120, 48, 156, 0.4) 0px 5px 10px;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.link-tree{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content:space-evenly;
+  position: relative;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.social-picture{
+  width: 60px;
+  position:absolute;
+  left:-10px;
+  border-radius: 3.5px;
+  box-shadow: rgba(255, 0, 0, 0.16) 0px 3px 6px, rgba(221, 0, 255, 0.23) 0px 3px 6px; 
+  transition: all 0.1s;
+}
+
+.social-arrow{
+  width: 20px;
+  position:absolute;
+  border-radius: 3.5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  top:30px;
+  filter: invert(100%);
+  background-color: rgba(210, 210, 210, 1);
+  box-shadow: rgba(255, 255, 255, 0.4) 0px 4px 10px;
+  right: -7.5px;
+  transition: all 0.1s;
+
+}
+
+.Social-name{
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 50px;
+  transition: all 0.2s;
+
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+
+.link-short{
+  color: aliceblue;
+  font-size: 10px;
+  left: 0%;
+  transition: all 0.2s;
+
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: -20;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.link-short:hover{
+  font-size: 15px;
+}
+
+.Social-name:hover{
+  font-size: 22px;
+}
+
+a{
+  text-decoration:none ;
+}
+
+
+.social-picture:hover{
+  left:-20px;
+  
+}
+
+.social-arrow:hover{
+  right: -12px;
+}
+
+.Links-1{
+  color: aliceblue;
+  text-align: center;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+footer{
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 0px;
+
+
+}
+
+.footer-info{
+  margin-bottom: -20px;
+  color: rgb(255, 255, 255);
+}
+
+.footer-info-1{
+  margin-bottom: -20px;
+  color: rgb(167, 79, 255);
+}
